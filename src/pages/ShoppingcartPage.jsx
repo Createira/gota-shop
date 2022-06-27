@@ -1,5 +1,5 @@
 const ShoppingcartPage = () => {
-  return <div>Here you can pay for your purchases. Choose you card.</div>;
+  return <div className="checkout">Hello, we have some issues with credit card payments...</div>;
 };
 
 export default ShoppingcartPage;

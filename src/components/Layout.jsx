@@ -8,9 +8,6 @@ const Layout = () => {
         <NavLink className="sup-header__link" to="/wishlist">
           Wishlist
         </NavLink>
-        <NavLink className="sup-header__link" to="/checkout">
-          Checkout
-        </NavLink>
         <NavLink className="sup-header__link" to="/register">
           Login & Register
         </NavLink>
