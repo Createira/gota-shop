@@ -1,6 +1,6 @@
 {
   "name": "gota-shop",
-  "homepage": "https://Createira/github.io/gota-shop",
+  "homepage": "https://github.com/Createira/gota-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "json-server": "^0.17.0",
     "json-server-auth": "^2.1.0",
     "postcss": "^8.4.14",
