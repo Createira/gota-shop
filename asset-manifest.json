@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github.io/gota-shop/static/css/main.522613b9.css",
+    "main.js": "/github.io/gota-shop/static/js/main.d2ee35cc.js",
+    "static/media/preloader.png": "/github.io/gota-shop/static/media/preloader.df2afb79ddce1467c090.png",
+    "static/media/error-bg.png": "/github.io/gota-shop/static/media/error-bg.10ef9e192e94012b4684.png",
+    "static/media/intro-img.png": "/github.io/gota-shop/static/media/intro-img.30bac6a624c9a36b62ff.png",
+    "static/media/error-text.png": "/github.io/gota-shop/static/media/error-text.3483e32c83e3db480b1e.png",
+    "index.html": "/github.io/gota-shop/index.html",
+    "main.522613b9.css.map": "/github.io/gota-shop/static/css/main.522613b9.css.map",
+    "main.d2ee35cc.js.map": "/github.io/gota-shop/static/js/main.d2ee35cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.522613b9.css",
+    "static/js/main.d2ee35cc.js"
+  ]
+}
