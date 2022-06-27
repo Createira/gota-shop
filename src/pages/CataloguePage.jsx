@@ -13,6 +13,7 @@ const CataloguePage = () => {
   const [order, setOrder] = useState([]);
   const [isCartOpen, setCartOpen] = useState(false);
 
+
   const addToCart = (item) => {
     const itemIndex = order.findIndex((orderItem) => orderItem.id === item.id);
 
@@ -84,6 +85,7 @@ const CataloguePage = () => {
         setLoading(false);
       });
   }, []);
+
 
   const lastGoodIndex = curretPage * goodsPerPage;
   const firstCountryIndex = lastGoodIndex - goodsPerPage;

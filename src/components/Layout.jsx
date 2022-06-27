@@ -1,6 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
 import logo from "../images/logo.png";
-import RegistrationPage from "../pages/RegistrationPage";
 
 const Layout = () => {
   return (
@@ -14,9 +13,6 @@ const Layout = () => {
         </NavLink>
         <NavLink className="sup-header__link" to="/register">
           Login & Register
-        </NavLink>
-        <NavLink className="sup-header__link" to="/account">
-          Account
         </NavLink>
       </div>
       <header className="header">

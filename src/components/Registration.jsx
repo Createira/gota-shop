@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import axios from "axios";
+import { emailChanged, registrationFailure, register } from "../actions";
 
 const Registration = () => {
   const dispatch = useDispatch();
@@ -21,49 +21,38 @@ const Registration = () => {
     });
   };
 
-  const onRegister = async () => {
-    const response = await axios.post("http://localhost:3002/register", {
-      email,
-      password: values.password,
-    });
-    console.log(response)
-  };
-
   const validation = () => {
     if (
       !email?.length ||
       values.password.length === 0 ||
       values.repeatPassword.length === 0
     ) {
+      dispatch(registrationFailure("Fill all fields"));
       return false;
     }
 
     if (values.password !== values.repeatPassword) {
+      dispatch(registrationFailure("Passwords do not match"));
       return false;
     }
 
-    if (!/^[a-z0-9A-Z_\.]{1,}@[a-z0-9A-Z\-]+\.[a-z0-9A-Z]+$/.test(email)) {
+    if (!/^[a-z0-9A-Z_.]{1,}@[a-z0-9A-Z-]+\.[a-z0-9A-Z]+$/.test(email)) {
+      dispatch(registrationFailure("Email is not correct"));
       return false;
     }
 
-    onRegister();
+    dispatch(register(email, values.password));
   };
 
   return (
     <div className="registration">
       <h2 className="registration__title">Register</h2>
       <div className="form">
-        <span>Your email: {email}</span>
         <input
           type="text"
           placeholder="email"
           value={email}
-          onChange={(event) =>
-            dispatch({
-              type: "EMAIL_CHANGED",
-              payload: event.target.value,
-            })
-          }
+          onChange={(event) => dispatch(emailChanged(event.target.value))}
         />
         <input
           type="password"
@@ -79,7 +68,9 @@ const Registration = () => {
             onChangeValue("repeatPassword", event.target.value)
           }
         />
-        <button onClick={validation}>Register</button>
+        <button className="btn-registration" onClick={validation}>
+          Register
+        </button>
       </div>
     </div>
   );

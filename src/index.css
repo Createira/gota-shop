@@ -66,9 +66,8 @@ body {
   padding: 3px 10px;
   text-transform: uppercase;
   color: #a3a3a3;
-  text-weight: 400;
+  font-weight: 400;
   font-size: 18px;
-  transition: all 0.9s liner;
 }
 
 .sup-header__link:hover {
@@ -221,16 +220,22 @@ body {
 
 /*=== Cart ===*/
 .cart {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  padding: 6px;
+  background-color: #ffab02;
+  border-radius: 10px;
+  position: fixed;
+  top: 67px;
+  right: 100px;
 }
 
 .cart-img {
   display: inline-block;
-  width: 25px;
+  width: 30px;
+}
+
+.cart-counter {
+  display: flex;
+  gap: 10px;
 }
 
 .cart-list {
@@ -243,12 +248,15 @@ body {
   top: 0;
   right: 0;
   z-index: 100;
-  transition: all 0.7s ease-in-out;
   overflow-y: scroll;
   animation: show 500ms ease-in-out;
+  -webkit-box-shadow: -12px 0px 21px -8px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -12px 0px 21px -8px rgba(34, 60, 80, 0.2);
+  box-shadow: -12px 0px 21px -8px rgba(34, 60, 80, 0.2);
 }
 
 .cart-item {
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -310,7 +318,6 @@ body {
 }
 
 .registration {
-  max-width: 330px;
   margin: 0 auto;
   height: calc(100vh - 343px);
   display: flex;
@@ -320,7 +327,7 @@ body {
 }
 
 .form {
-  padding: 60px 40px;
+  padding: 80px 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,6 +340,16 @@ body {
   width: 250px;
   padding: 10px;
   border: 1px solid #ddd;
+}
+
+.btn-registration {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ffab02;
+}
+
+.btn-registration:hover {
+  background-color: #ffab02;
 }
 
 @tailwind base;
