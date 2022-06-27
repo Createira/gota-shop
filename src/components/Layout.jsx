@@ -1,20 +1,21 @@
 import { NavLink, Outlet } from "react-router-dom";
 import logo from "../images/logo.png";
+import RegistrationPage from "../pages/RegistrationPage";
 
 const Layout = () => {
   return (
     <>
       <div className="sup-header">
-        <NavLink className="sup-header__link" to="/">
+        <NavLink className="sup-header__link" to="/wishlist">
           Wishlist
         </NavLink>
-        <NavLink className="sup-header__link" to="/">
+        <NavLink className="sup-header__link" to="/checkout">
           Checkout
         </NavLink>
-        <NavLink className="sup-header__link" to="/">
+        <NavLink className="sup-header__link" to="/register">
           Login & Register
         </NavLink>
-        <NavLink className="sup-header__link" to="/">
+        <NavLink className="sup-header__link" to="/account">
           Account
         </NavLink>
       </div>
