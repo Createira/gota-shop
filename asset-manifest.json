@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gota-shop/static/css/main.e0738f85.css",
-    "main.js": "/gota-shop/static/js/main.639221c8.js",
-    "static/media/intro-img.png": "/gota-shop/static/media/intro-img.be6394235813c53f9887.png",
-    "static/media/preloader.png": "/gota-shop/static/media/preloader.df2afb79ddce1467c090.png",
-    "static/media/error-bg.png": "/gota-shop/static/media/error-bg.10ef9e192e94012b4684.png",
-    "static/media/error-text.png": "/gota-shop/static/media/error-text.3483e32c83e3db480b1e.png",
-    "index.html": "/gota-shop/index.html",
-    "main.e0738f85.css.map": "/gota-shop/static/css/main.e0738f85.css.map",
-    "main.639221c8.js.map": "/gota-shop/static/js/main.639221c8.js.map"
+    "main.css": "/static/css/main.e0738f85.css",
+    "main.js": "/static/js/main.3dfbd118.js",
+    "static/media/intro-img.png": "/static/media/intro-img.be6394235813c53f9887.png",
+    "static/media/preloader.png": "/static/media/preloader.df2afb79ddce1467c090.png",
+    "static/media/error-bg.png": "/static/media/error-bg.10ef9e192e94012b4684.png",
+    "static/media/error-text.png": "/static/media/error-text.3483e32c83e3db480b1e.png",
+    "index.html": "/index.html",
+    "main.e0738f85.css.map": "/static/css/main.e0738f85.css.map",
+    "main.3dfbd118.js.map": "/static/js/main.3dfbd118.js.map"
   },
   "entrypoints": [
     "static/css/main.e0738f85.css",
-    "static/js/main.639221c8.js"
+    "static/js/main.3dfbd118.js"
   ]
 }
