@@ -208,7 +208,6 @@ body {
 }
 
 .error-text {
-  width: 550px;
   max-width: 550px;
   position: absolute;
 }
