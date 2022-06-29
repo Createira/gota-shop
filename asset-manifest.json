@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gota-shop/static/css/main.114bca84.css",
-    "main.js": "/gota-shop/static/js/main.20458cf6.js",
+    "main.css": "/gota-shop/static/css/main.e0738f85.css",
+    "main.js": "/gota-shop/static/js/main.639221c8.js",
     "static/media/intro-img.png": "/gota-shop/static/media/intro-img.be6394235813c53f9887.png",
     "static/media/preloader.png": "/gota-shop/static/media/preloader.df2afb79ddce1467c090.png",
     "static/media/error-bg.png": "/gota-shop/static/media/error-bg.10ef9e192e94012b4684.png",
     "static/media/error-text.png": "/gota-shop/static/media/error-text.3483e32c83e3db480b1e.png",
     "index.html": "/gota-shop/index.html",
-    "main.114bca84.css.map": "/gota-shop/static/css/main.114bca84.css.map",
-    "main.20458cf6.js.map": "/gota-shop/static/js/main.20458cf6.js.map"
+    "main.e0738f85.css.map": "/gota-shop/static/css/main.e0738f85.css.map",
+    "main.639221c8.js.map": "/gota-shop/static/js/main.639221c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.114bca84.css",
-    "static/js/main.20458cf6.js"
+    "static/css/main.e0738f85.css",
+    "static/js/main.639221c8.js"
   ]
 }
