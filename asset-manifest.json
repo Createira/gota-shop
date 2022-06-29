@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/gota-shop/static/css/main.114bca84.css",
-    "main.js": "/gota-shop/static/js/main.3d08daea.js",
+    "main.js": "/gota-shop/static/js/main.278765bb.js",
     "static/media/preloader.png": "/gota-shop/static/media/preloader.df2afb79ddce1467c090.png",
     "static/media/error-bg.png": "/gota-shop/static/media/error-bg.10ef9e192e94012b4684.png",
     "static/media/intro-img.png": "/gota-shop/static/media/intro-img.30bac6a624c9a36b62ff.png",
     "static/media/error-text.png": "/gota-shop/static/media/error-text.3483e32c83e3db480b1e.png",
     "index.html": "/gota-shop/index.html",
     "main.114bca84.css.map": "/gota-shop/static/css/main.114bca84.css.map",
-    "main.3d08daea.js.map": "/gota-shop/static/js/main.3d08daea.js.map"
+    "main.278765bb.js.map": "/gota-shop/static/js/main.278765bb.js.map"
   },
   "entrypoints": [
     "static/css/main.114bca84.css",
-    "static/js/main.3d08daea.js"
+    "static/js/main.278765bb.js"
   ]
 }
