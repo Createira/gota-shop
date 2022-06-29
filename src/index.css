@@ -383,11 +383,6 @@ body {
   .catalogue__card {
     max-width: 47%;
   }
-
-  .intro__img {
-    right: -30px
-    ;
-  }
 }
 
 @media (max-width: 768px) {
