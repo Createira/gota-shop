@@ -11,9 +11,9 @@ function Router() {
   return (
     <>
       <Routes>
-        <Route basename='/gota-shop' path="/" element={<Layout />}>
-          <Route path="register" element={<RegistrationPage />}/>
-          <Route index element={<HomePage />} />
+        <Route path="/gota-shop" element={<Layout />}>
+          <Route path="register" element={<RegistrationPage />} />
+          <Route basename="/gota-shop" index element={<HomePage />} />
           <Route path="catalogue" element={<CataloguePage />} />
           <Route path="shopping-cart" element={<ShoppingcartPage />} />
           <Route path="*" element={<ErrorPage />} />
