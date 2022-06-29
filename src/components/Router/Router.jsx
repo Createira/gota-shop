@@ -11,11 +11,11 @@ function Router() {
   return (
     <>
       <Routes>
-        <Route path="/gota-shop" element={<Layout />}>
-          <Route path="register" element={<RegistrationPage />} />
-          <Route basename="/gota-shop" index element={<HomePage />} />
-          <Route path="catalogue" element={<CataloguePage />} />
-          <Route path="shopping-cart" element={<ShoppingcartPage />} />
+        <Route exact basename="/gota-shop" element={<Layout />}>
+          <Route path="/register" element={<RegistrationPage />} />
+          <Route index path="/" element={<HomePage />} />
+          <Route path="/catalogue" element={<CataloguePage />} />
+          <Route path="/shopping-cart" element={<ShoppingcartPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
