@@ -10,10 +10,10 @@ import Layout from "../Layout";
 function Router() {
   return (
     <>
-      <Routes basename="/gota-shop">
-        <Route exact path="/gota-shop" element={<Layout />}>
+      <Routes >
+        <Route exact path="/" element={<Layout />}>
           <Route path="/register" element={<RegistrationPage />} />
-          <Route index  element={<HomePage />} />
+          <Route index basename="/gota-shop" element={<HomePage />} />
           <Route path="/catalogue" element={<CataloguePage />} />
           <Route path="/shopping-cart" element={<ShoppingcartPage />} />
           <Route path="*" element={<ErrorPage />} />
